@@ -1,0 +1,12 @@
+Tutorial
+https://semaphoreci.com/community/tutorials/test-driven-apis-with-phoenix-and-elixir
+
+To install Postgres:
+http://tecadmin.net/install-postgresql-server-on-ubuntu/#
+
+
+mix phoenix.new watchlist --no-html --no-brunch
+mix ecto.create
+
+To fix stupid Postgres error:
+sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
